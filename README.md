@@ -1,2 +1,2 @@
 # in-public-code
-any
+In public code. support any languages.
