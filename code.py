@@ -1,1 +1,2 @@
-import 
+k=float(input('press number:'))
+
