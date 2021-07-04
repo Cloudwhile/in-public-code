@@ -33,7 +33,7 @@ else {
     break;
 }
 default:
-    cout<<"Please enter '+','-','*','//'.";
+    cout<<"Please enter '+','-','*','//'."<<endl;
     break;
 }
 }
