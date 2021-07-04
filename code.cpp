@@ -2,6 +2,7 @@
 #include<iostream>
 #include<string.h>
 #include<windows.h>
+using namespace std;
 void ain(float a, b){
 float c;
 char nu;
@@ -11,26 +12,25 @@ while(1){
 switch (nu){
 case '+':
     c = a + b;
-    cout<<a<<nu<<b<<"="<<c;
+    cout<<a<<nu<<b<<"="<<c<<endl;
     break;
 case '-':
     c = a - b;
-    cout<<a<<nu<<b<<"="<<c;
+    cout<<a<<nu<<b<<"="<<c<<endl;
     break;
 case '*':
     c = a * b;
-    cout<<a<<nu<<b<<"="<<c;
+    cout<<a<<nu<<b<<"="<<c<<endl;
     break;
 case '/':
     if b == 0{
-    cout<<"the second number must not be zero!"
-    break;
+    cout<<"the second number must not be zero!"<<endl;
 }
 else {
     c = a / b
-    cout<<a<<nu<<b<<"="<<c;
-    break;
+    cout<<a<<nu<<b<<"="<<c<<endl;
 }
+    break;
 }
 }
 }
