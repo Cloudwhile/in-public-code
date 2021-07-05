@@ -1,2 +1,2 @@
-k=float(input('press number:'))
+k=float(input('Enter number:'))
 
