@@ -38,6 +38,7 @@ default:
 }
 }
 int main (){
+cout<<"Which function do you want to run:";
 
 return 0;
 }
