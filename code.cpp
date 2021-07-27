@@ -38,7 +38,9 @@ default:
 }
 }
 int main (){
-cout<<"Which function do you want to run:";
-
+int d = MessageBox(NULL,TEXT("functions are prepared"),TEXT("Come from process"),MB_YESNO);
+if(d == KEY_YES){
+    
+}
 return 0;
 }
