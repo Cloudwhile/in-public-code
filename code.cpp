@@ -39,7 +39,7 @@ default:
 }
 int main (){
 int d = MessageBox(NULL,TEXT("functions are prepared"),TEXT("Come from process"),MB_YESNO);
-if(d == KEY_YES){
+if(d == IDYES){
     
 }
 return 0;
