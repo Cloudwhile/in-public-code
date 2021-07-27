@@ -3,8 +3,8 @@
 #include<string.h>
 #include<windows.h>
 using namespace std;
-void ain(float a, b){
-float c;
+void ain(){
+float a,b,c;
 char nu;
 cout<<"Calculate(a?b[1+1]):";
 cin>>a>>nu>>b;
@@ -38,9 +38,15 @@ default:
 }
 }
 int main (){
-int d = MessageBox(NULL,TEXT("functions are prepared"),TEXT("Come from process"),MB_YESNO);
+int v,d = MessageBox(NULL,TEXT("functions are prepared"),TEXT("Come from process"),MB_YESNO);
 if(d == IDYES){
-    
+    cout<<"Please choose a functions to run"<<endl;
+    cout<<"Here only a functions [1](calculate):";
+    cin>>v;
+    switch(v){
+    case '1':
+         ain();
+}
 }
 return 0;
 }
